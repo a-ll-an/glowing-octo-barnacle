@@ -8,6 +8,9 @@ import math
 
 #Area of the triangle
 
+radius = int(input("Please give me the radius of the circle "))
+
+print(f"The area of the circle is {math.pi*(radius**2)}")
 
 
 
