@@ -17,3 +17,12 @@ yuh = input("Give me a string with a's in it: ").replace("a","o")
 print(yuh)
 
 #5
+name = input("Please give me you full name with a space in between: ")
+#for this use join method
+
+x = ''.join(([c for c in name if c.isupper()]))
+print(x)
+
+#6
+give = input("Give me a string: ")
+print(len(give))
